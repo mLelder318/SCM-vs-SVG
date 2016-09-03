@@ -1,0 +1,115 @@
+/* ensures HTML5 elements work in all browsers */
+header, footer{
+  display:block;
+}
+
+ /* styles for body */
+body {
+	font-family:'Sanchez', serif;
+	font-size: 18px;
+	color:white;
+	background:#B385D9; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(purple, #B385D9, #3F3F3F); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(purple, #B385D9, #3F3F3F); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(purple, #B385D9, #3F3F3F); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(purple, #B385D9,  #3F3F3F); /* Standard syntax */;
+}
+
+/* sets all h1, h2, h4 fonts */
+h1, h2, h4{
+  font-family:'Abril Fatface', cursive;
+	text-align:center;
+}
+
+header h1{
+	color:black;
+	font-size:350%;
+	text-shadow: 1px 2px white,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 5px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 15px 20px rgba(0,0,0,.15),
+							 0 7px 5px white;
+}
+
+header h2{
+	color:white;
+	font-size:200%;
+	text-shadow: 0 1px 0 rgba(0,0,0,.15), 
+               0 2px 0 rgba(0,0,0,.2),
+               0 3px 0 rgba(0,0,0,.25),
+               0 4px 0 rgba(0,0,0,.2),
+               0 5px 0 rgba(0,0,0,.3),
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 3px rgba(0,0,0,.1),
+               0 7px 5px #3F3F3F;
+}
+
+.container{
+	width:100%;
+}
+
+
+h4{
+	color:purple;
+	font-size:220%;
+	text-shadow: 1px 2px white,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 5px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 15px 20px rgba(0,0,0,.15),
+							 0 7px 5px white;	
+}
+
+h5{
+	color:white;
+	font-size:200%;
+	text-shadow: 0 2px 1px purple;
+	text-align:center;
+}
+
+h6{
+	font-size:125%;
+}
+
+a{
+	color:cyan;
+}
+	
+
+/* formats collapsible-header */
+.collapsible-header{
+	font-family:'Abril Fatface',cursive;
+	text-align:center;
+	font-size:180%;
+  background-color:#EAE4EF;
+	color:indigo;
+	text-shadow: 0 1px 1px cyan;
+}
+
+/* formats collapsible-body */
+.collapsible-body{
+  background-color:#3F3F3F;
+	text-align:center;
+}
+
+#aboutUs{
+	text-align:center;
+	color:black;
+	margin:0 1em 0 1em;
+}
+
+/* footer styles borrowed from xentientlabs.com */
+footer {
+	background-color: #3F3F3F; 
+  margin: 0;
+}
+
+
+
